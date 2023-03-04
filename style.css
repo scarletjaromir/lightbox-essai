@@ -72,7 +72,7 @@ h1 {
 
 /*****lightbox off*****/
 .lightbox {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   visibility: hidden;
   position: fixed;
   top: 0;
@@ -107,7 +107,7 @@ h1 {
 /*****Flèche gauche et droite****/
 .lightbox-content a i {
   text-decoration: none;
-  color: #f1f1f14d;
+  color: #f1f1f18f;
   font-size: 35px;
 }
 .lightbox-content a i:hover {
@@ -136,7 +136,7 @@ h1 {
   position: absolute;
   width: 2rem;
   height: 2rem;
-  background: rgba(255, 0, 0, 0.644);
+  background: rgba(255, 0, 0, 0.685);
   top: 1rem;
   right: 1rem;
   text-decoration: none;
