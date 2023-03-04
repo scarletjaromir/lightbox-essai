@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galleries</title>
+    <link rel="stylesheet" href="./CSS/galerie.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e4ea7ef46c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./galerie.css" />
+  </head>
+  <body>
+    <h1>Flexbox responsive galery</h1>
+
+    <div class="galerie">
+      <div class="image-container">
+        <div class="item">
+          <a href="#photo1" class="image"><img src="./img/foot.jpg" /></a>
+        </div>
+        <div class="item">
+          <a href="#photo2" class="image"><img src="./img/foot.jpg" /></a>
+        </div>
+        <div class="item">
+          <a href="#photo3" class="image"><img src="./img/foot.jpg" /></a>
+        </div>
+        <div class="item">
+          <a href="#photo4" class="image"><img src="./img/foot.jpg" /></a>
+        </div>
+
+        <div class="item">
+          <a href="#photo5" class="image"><img src="./img/foot.jpg" /></a>
+        </div>
+        <div class="item">
+          <a href="#photo6" class="image"><img src="./img/foot.jpg" /></a>
+        </div>
+        <div class="item">
+          <a href="#photo7" class="image"><img src="./img/foot.jpg" /></a>
+        </div>
+        <div class="item">
+          <a href="#photo8" class="image"><img src="./img/foot.jpg" /></a>
+        </div>
+
+        <div class="item">
+          <a href="#photo9" class="image"><img src="./img/foot.jpg" /></a>
+        </div>
+        <div class="item">
+          <a href="#photo10" class="image"><img src="./img/foot.jpg" /></a>
+        </div>
+        <div class="item">
+          <a href="#photo11" class="image"><img src="./img/foot.jpg" /></a>
+        </div>
+        <div class="item">
+          <a href="#photo12" class="image"><img src="./img/foot.jpg" /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- /***********LIGHTBOXES*******/ -->
+    <div class="lightboxes">
+      <!-- /****LIGHTBOX 1****/ -->
+      <div id="photo1" class="lightbox">
+        <div class="lightbox-content">
+          <a href="#" class="close"></a>
+          <div id="inner">
+            <div class="img">
+              <img src="./img/foot.jpg" alt="foot" />
+              <p id="description">Description</p>
+            </div>
+          </div>
+          <h3>title</h3>
+          <p>
+            <a href="#photo2" id="next"
+              ><i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <a href="#photo4" id="previous"
+              ><i class="fa-solid fa-arrow-left-long"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+
+      <!-- /****LIGHTBOX 2****/ -->
+      <div id="photo2" class="lightbox">
+        <div class="lightbox-content">
+          <a href="#" class="close"></a>
+          <div id="inner">
+            <div class="img">
+              <img src="./img/foot.jpg" alt="foot" />
+              <p id="description">Image2</p>
+            </div>
+          </div>
+          <h3>title</h3>
+          <p>
+            <a href="#photo3" id="next"
+              ><i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <a href="#photo1" id="previous"
+              ><i class="fa-solid fa-arrow-left-long"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+
+      <!-- /****LIGHTBOX 3****/ -->
+      <div id="photo3" class="lightbox">
+        <div class="lightbox-content">
+          <a href="#" class="close"></a>
+          <div id="inner">
+            <div class="img">
+              <img src="./img/foot.jpg" alt="foot" />
+              <p id="description">Image3</p>
+            </div>
+          </div>
+          <h3>title</h3>
+          <p>
+            <a href="#photo4" id="next"
+              ><i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <a href="#photo2" id="previous"
+              ><i class="fa-solid fa-arrow-left-long"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+
+      <!-- /****LIGHTBOX 4****/ -->
+      <div id="photo4" class="lightbox">
+        <div class="lightbox-content">
+          <a href="#" class="close"></a>
+          <div id="inner">
+            <div class="img">
+              <img src="./img/foot.jpg" alt="foot" />
+              <p id="description">Image4</p>
+            </div>
+          </div>
+          <h3>title</h3>
+          <p>
+            <a href="#photo5" id="next"
+              ><i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <a href="#photo3" id="previous"
+              ><i class="fa-solid fa-arrow-left-long"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+
+      <!-- /****LIGHTBOX 5****/ -->
+      <div id="photo5" class="lightbox">
+        <div class="lightbox-content">
+          <a href="#" class="close"></a>
+          <div id="inner">
+            <div class="img">
+              <img src="./img/foot.jpg" alt="foot" />
+              <p id="description">Image5</p>
+            </div>
+          </div>
+          <h3>title</h3>
+          <p>
+            <a href="#photo6" id="next"
+              ><i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <a href="#photo4" id="previous"
+              ><i class="fa-solid fa-arrow-left-long"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+      <!-- /****LIGHTBOX 6****/ -->
+      <div id="photo6" class="lightbox">
+        <div class="lightbox-content">
+          <a href="#" class="close"></a>
+          <div id="inner">
+            <div class="img">
+              <img src="./img/foot.jpg" alt="foot" />
+              <p id="description">Image6</p>
+            </div>
+          </div>
+          <h3>title</h3>
+          <p>
+            <a href="#photo7" id="next"
+              ><i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <a href="#photo5" id="previous"
+              ><i class="fa-solid fa-arrow-left-long"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+      <!-- /****LIGHTBOX 7****/ -->
+      <div id="photo7" class="lightbox">
+        <div class="lightbox-content">
+          <a href="#" class="close"></a>
+          <div id="inner">
+            <div class="img">
+              <img src="./img/foot.jpg" alt="foot" />
+              <p id="description">Image7</p>
+            </div>
+          </div>
+          <h3>title</h3>
+          <p>
+            <a href="#photo8" id="next"
+              ><i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <a href="#photo6" id="previous"
+              ><i class="fa-solid fa-arrow-left-long"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+      <!-- /****LIGHTBOX 8****/ -->
+      <div id="photo8" class="lightbox">
+        <div class="lightbox-content">
+          <a href="#" class="close"></a>
+          <div id="inner">
+            <div class="img">
+              <img src="./img/foot.jpg" alt="foot" />
+              <p id="description">Image8</p>
+            </div>
+          </div>
+          <h3>title</h3>
+          <p>
+            <a href="#photo9" id="next"
+              ><i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <a href="#photo7" id="previous"
+              ><i class="fa-solid fa-arrow-left-long"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+      <!-- /****LIGHTBOX 9****/ -->
+      <div id="photo9" class="lightbox">
+        <div class="lightbox-content">
+          <a href="#" class="close"></a>
+          <div id="inner">
+            <div class="img">
+              <img src="./img/foot.jpg" alt="foot" />
+              <p id="description">Image9</p>
+            </div>
+          </div>
+          <h3>title</h3>
+          <p>
+            <a href="#photo10" id="next"
+              ><i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <a href="#photo8" id="previous"
+              ><i class="fa-solid fa-arrow-left-long"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+      <!-- /****LIGHTBOX 10****/ -->
+      <div id="photo10" class="lightbox">
+        <div class="lightbox-content">
+          <a href="#" class="close"></a>
+          <div id="inner">
+            <div class="img">
+              <img src="./img/foot.jpg" alt="foot" />
+              <p id="description">Image10</p>
+            </div>
+          </div>
+          <h3>title</h3>
+          <p>
+            <a href="#photo11" id="next"
+              ><i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <a href="#photo9" id="previous"
+              ><i class="fa-solid fa-arrow-left-long"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+      <!-- /****LIGHTBOX 11****/ -->
+      <div id="photo11" class="lightbox">
+        <div class="lightbox-content">
+          <a href="#" class="close"></a>
+          <div id="inner">
+            <div class="img">
+              <img src="./img/foot.jpg" alt="foot" />
+              <p id="description">Image11</p>
+            </div>
+          </div>
+          <h3>title</h3>
+          <p>
+            <a href="#photo12" id="next"
+              ><i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <a href="#photo10" id="previous"
+              ><i class="fa-solid fa-arrow-left-long"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+      <!-- /****LIGHTBOX 12****/ -->
+      <div id="photo12" class="lightbox">
+        <div class="lightbox-content">
+          <a href="#" class="close"></a>
+          <!-- /***id inner non utile***/ -->
+          <div id="inner">
+            <div class="img">
+              <img src="./img/foot.jpg" alt="foot" />
+              <p id="description">Image12</p>
+            </div>
+          </div>
+          <h3>title</h3>
+          <p>
+            <a href="#photo1" id="next"
+              ><i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <a href="#photo11" id="previous"
+              ><i class="fa-solid fa-arrow-left-long"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
